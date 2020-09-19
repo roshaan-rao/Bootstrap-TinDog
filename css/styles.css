@@ -1,0 +1,156 @@
+/* Element Section */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Header Section */
+
+.navbar-brand{
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  color: white;
+}
+.font-style{
+  font-family: 'Ubuntu', sans-serif;
+}
+/* Title Section */
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.h1-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.img-1{
+  transform: rotate(25deg);
+  padding-top: 40px;
+  width: 60%;
+  position: absolute;
+  right: 30%
+}
+
+/* Feature Section */
+
+
+.icn-f{
+  color: #7e8a97;
+  margin-bottom: 1rem;
+}
+.icn-f:hover{
+  color: #30475e;
+}
+.f-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials Section */
+
+
+.h2-header{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+.title-testimonial{
+  color: white;
+  font-weight: bold;
+}
+/* Pricing Section */
+
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.price-col{
+  padding: 3% 2%;
+
+}
+.clr-h2{
+  color: black;
+}
+/* CTA SECTION */
+
+
+.cta-btn{
+  margin: 10% 3% 5% 0%;
+}
+.cta-h{
+  color: white;
+  font-weight: bold;
+}
+/* Footer Section */
+
+
+.foot-icn{
+  padding: 4px 4px;
+  color: #7e8a97;
+}
+.foot-icn:hover{
+  color: #30475e;
+}
+/* ID's Section */
+
+
+#title{
+  background-color: #30475e;
+  color: white;
+}
+#features{
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+}
+#testimonials, #press{
+  text-align: center;
+  background-color: #7e8a97;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#cta, #footer{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #30475e;
+}
+#footer{
+  background-color: #fff;;
+}
+/* Media Query Section */
+@media (max-width: 1028px) {
+  .img-1{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+    color: white;
+  }
+}
